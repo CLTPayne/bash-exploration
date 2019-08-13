@@ -20,3 +20,7 @@ Set -u use variables
 Set -o pipefail =give you the point at which it failed
 
 -x debug mode (print out everything being executed as you run the script)
+
+# Tools
+- shellcheck vscode plugin for linting bash
+- [bats](https://github.com/sstephenson/bats) for testing
