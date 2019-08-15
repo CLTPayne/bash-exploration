@@ -13,6 +13,7 @@ Write a bash script that is a new git command for `git clone` that will always c
 
 #### Interesting things to look at in Bash:
 1. Brace expansion
+2. Trapping something e.g. if a process exits you can trap on EXIT and clean up state / database connection etc - http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_02.html
 
 #### Handy things:
 Set -e (any errors - just exit)
